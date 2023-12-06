@@ -42,7 +42,7 @@ search_by_name_button = tk.Button(text="Search by Name", command=movie_details_b
 search_by_name_button.pack()
 
 
-result_label = tk.Label()
+result_label = tk.Label(height=100)
 result_label.pack()
 
 
